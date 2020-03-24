@@ -1,0 +1,30 @@
+@import url("common.css");
+.normal { background-color : #bfefbf !important; }
+.warning { background-color : #fd9e40 !important; }
+.warning, .warning a {
+  color: #ffffff !important;
+  font-weight: bold !important;
+}
+.error { background-color : #de6868 !important; }
+.error, .error a {
+  color: #ffffff !important;
+  font-weight: bold !important;
+}
+.disabled-test { background-color : #ffff99; }
+
+.normal-text { color : #8aba5a; }
+.warning-text { color : #fdb66d; }
+.error-text { color : #de6868; }
+
+.tabb tbody tr.odd td.normal { background-color: #b4dcb4 !important; }
+.tabb tbody tr.odd td.warning { background-color: #f39130 !important; }
+.tabb tbody tr.odd td.error { background-color: #d95454 !important; }
+.tabb tbody tr.odd td.disabled-test { background-color: #eeee00 !important; }
+
+.Passed { background-color : #8aba5a; }
+.Failed { background-color : #fdba76; }
+.Not Run { background-color : #ff6666; }
+
+.nv-rangeMin {fill: #de6868 !important; }
+.nv-rangeAvg {fill: #fdb66d !important; }
+.nv-rangeMax {fill: #8aba5a !important; }
